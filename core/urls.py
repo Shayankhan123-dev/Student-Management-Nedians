@@ -22,4 +22,7 @@ urlpatterns = [
     path('api/auth/', include('accounts.urls')),
     path('api/', include('students.urls')),
     path('api/', include('attendance.urls')),
+    path('api/', include('results.urls')),
+    path('api/', include('analytics.urls')),
+    path('api/', include('reports.urls')),
 ]
